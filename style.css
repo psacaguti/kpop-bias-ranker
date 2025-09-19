@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'NJZ';
+    src: url(fonts/NJZ.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NJZ', sans-serif;
+    background-color: #a0f4ff;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.ranker {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.group-name {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+.member-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #a0f4ff;
+}
+
+.member-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rank-number {
+    background: #a0f4ff;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.up-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.down-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    transform: none;
+}
