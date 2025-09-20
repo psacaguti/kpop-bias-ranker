@@ -51,3 +51,15 @@ function moveDown(index) {
 
 // Initialize the page
 renderRanking();
+
+// Function to reset ranking to original order
+function resetRanking() {
+    members = [
+        "Minji",
+        "Hanni", 
+        "Danielle",
+        "Haerin",
+        "Hyein"
+    ];
+    renderRanking();
+}
